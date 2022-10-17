@@ -5,4 +5,3 @@ Operating Systems Experience:
 - Primarily a Windows User 
 - Approximately 1 year of experience with Linux and Linux based distributions such as Ubuntu and virtual boxes such as Oracle VM VirtualBox 
 - Familiar with Robot Operating Systems (ROS) and associated Linux commands
-
