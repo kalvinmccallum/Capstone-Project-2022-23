@@ -1,0 +1,15 @@
+Steps to install Google Chrome package on Fedora (updated March 2, 2023)
+
+In terminal, first install fedora-packager , rpmdevtools , @development-tools.
+
+  [username@fedora ~]$ sudo dnf install fedora-packager rpmdevtools
+
+Enter your password. Once it installs, cd into the folder where you want the rpm file downloaded from the web.
+
+  [username@fedora ~]$ cd ~/rpmbuild/RPMS
+
+  [username@fedora RPMS]$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+
+  [username@fedora RPMS]$ sudo dnf install ./google-chrome-stable_current_x86_64.rpm
+
+It shows some errors, but it also says Installed: and Complete!
